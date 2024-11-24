@@ -1,0 +1,5 @@
+fragment
+
+  //Temperature in Fahrenheit
+  //Serial.print("Temperature (ºF): ");
+  //Serial.println(sensor.getTemp()*(9.0/5.0) + 32.0);

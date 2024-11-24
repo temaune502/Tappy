@@ -1,0 +1,97 @@
+Матаріали
+відео де показав роботу станка і друк філаментом https://www.youtube.com/watch?v=wnoMQamvgYU
+збірка механізму нарізки https://www.youtube.com/watch?v=2e_wMAU6v-k
+Сайт оригіналу https://petamentor2.com/
+Дуже важливе зауваження для нормального печатання таким переробленим пластиком треба виставляти заповненість 120-160 відсотків і треба експерементувати з різним обдувом для нормальної печаті
+GPT https://chatgpt.com/c/673a26f2-c184-800b-88b7-88e68143d8bd
+
+Чат з роботою пайтон і serial порта https://chatgpt.com/c/673a163a-403c-800b-85f1-47ac8210dfe0
+
+І ще одні замітка філамент виходить прозорим 
+
+Стосовно переробки пластику для крутіння котушки з готовим філаментом є два варіанти перший складний механізм з шестерень і 
+другий кроковий мотор з драйвером і під контролер rp2040 плюси використання крокового мотору 
+менше рухомих деталей і морот з металу буде зношувати повільніше 
+ніж пластикові шерсерні також напруга живлення може бути менше 12 вольт але 
+для нагрівального алементу з потужністю 40 ват потрібно 12 вольт але це не буде проблемою якщо 
+взяти один або два понижуючих перетворювачі для живлення мотора і rp2040 
+
+Список деталей для оригінального станка https://petamentor2.com/parts-mk2/
+
+
+Список деталей не остаточний варіант:
+
+1. блок живлення обов'язково (треба купити)
+
+2. термостат(терморезистор) але якщо зробити по моєму варіанту де швидкість морота і температуру буде керувати rp2040 
+термостат не потрібно тільки терморезистор для визначення температури через те що температура має бути 
+від -60 до +500 використати DS18B20 неможливо (аліекспрес або наші магазини онлай і в мене немає терморезистора)
+
+3. кроковий мотор (аліекспрес або наші магазини онлай і в мене немає мотора)
+
+4. драйвер крокового мотор (аліекспрес або наші магазини онлай і в мене немає драйвера)
+
+5.rp2040 (в мене є)
+
+6.нагрівальний елемент (елемент для нагріву пластику, немає)
+
+7. кнопка для комутації мережі 220вольт (можна купити в будь якому будевельному магазині, немає)
+
+8. Насадка М6 1,5 мм (потрібно свердлити) насадка тобто сопло від триД принтера тільки її треба розсвердлити (немає)
+
+9.понижуючий перетворюч 12 на 3.3 для rp2040 (в мене є)
+
+10. невеликий екран на якому можна буде виводити інформацію про температуру і швидкість мотора (не обов'язково але він в мене є)
+
+11.кнопки для керування температурою можна використати сенсорні кнопки якщо використовувати звичайні треба або паяти фільтр що не при зношенні кнопки не було подвійних-потрійних натисків або робити це програмно(в мене є)
+
+12. прості леза для нарізання пластикових бутилок як для канцелярських ножів
+
+В оригінальній схемі використовує dc мотор і багато шестерень для руху котушки з філаментом якщо використат крововий мотор то можна зменшити кількість деталей які треба пичатати і керувати крововим мотором можна буде легко через rp2040
+
+Ще дві статті https://arduino.ua/art196-pererobka-pet-plyashok-v-prytok-dlya-3d-printera
+
+https://klipper.com.ua/item/398-stanok-dlja-vigotovlennja-filamenta-z-pet-pljashok/
+
+В загальному ціна на готові станки для переробки коштують від 4500
+
+Ціни на компоненти
+1.блок живлення
+	https://matrix7km.com/nf-00006450 - 145грн
+	
+	https://familyshop.net.ua/p/519667845-blok-pitaniya-12v-5a-metal/?srsltid=AfmBOoq5iQqc-c3VFAOvQonpib6TcYDAawgrMGuNQzOS7QytlsRJ9WPb9b0 - 190грн
+	
+	https://lmm.in.ua/nf-00001068 - 160грн
+	https://epicentrk.ua/shop/mplc-blok-zhivlennya-biom-tr-60-60-vt-12v-5a-metal-ip20-standart-1ebe8506-c809-69da-bfd1-9bc29bab52de.html?srsltid=AfmBOorLXWDI0si-9bqcDy4tAEb6U0kBRb1-WHkHikezH_2zNv7tP5DzpgE - 200 грн
+	https://www.aliexpress.com/item/1005006996457473.html?spm=a2g0o.productlist.main.61.1150oG5boG5bst&algo_pvid=c6ebe5d9-71eb-4876-a17b-1a2bc38821b7&algo_exp_id=c6ebe5d9-71eb-4876-a17b-1a2bc38821b7-30&pdp_npi=4%40dis%21UAH%21491.17%21206.29%21%21%2183.86%2135.22%21%40211b680e17318750832443392e0ab4%2112000038988683960%21sea%21UA%210%21ABX&curPageLogUid=DvxbmEpAUTSk&utparam-url=scene%3Asearch%7Cquery_from%3A
+	
+	https://www.aliexpress.com/item/1005006425465022.html?spm=a2g0o.productlist.main.49.2621d0e7GOGXAI&algo_pvid=3bc8260e-89ad-4acc-a52c-2a2690ad1e54&algo_exp_id=3bc8260e-89ad-4acc-a52c-2a2690ad1e54-24&pdp_npi=4%40dis%21UAH%21487.19%21302.05%21%21%2183.18%2151.57%21%40211b664d17318751362954196ece05%2112000037121303508%21sea%21UA%210%21ABX&curPageLogUid=dDP0NJD9GIyg&utparam-url=scene%3Asearch%7Cquery_from%3A
+	
+	https://www.aliexpress.com/item/1005007180668620.html?spm=a2g0o.productlist.main.19.52ee3a8d6OTApB&algo_pvid=67e3e14c-63ee-40ec-91eb-e43fa1a72e8b&algo_exp_id=67e3e14c-63ee-40ec-91eb-e43fa1a72e8b-9&pdp_npi=4%40dis%21UAH%21174.40%21137.67%21%21%214.13%213.26%21%402103856417318752512724050efd4e%2112000039721949029%21sea%21UA%210%21ABX&curPageLogUid=7sT1ZaMym5WU&utparam-url=scene%3Asearch%7Cquery_from%3A
+	
+	https://www.aliexpress.com/item/1005007053565149.html?spm=a2g0o.productlist.main.37.52ee3a8d6OTApB&algo_pvid=67e3e14c-63ee-40ec-91eb-e43fa1a72e8b&algo_exp_id=67e3e14c-63ee-40ec-91eb-e43fa1a72e8b-18&pdp_npi=4%40dis%21UAH%21318.97%21172.25%21%21%2154.46%2129.41%21%402103856417318752512724050efd4e%2112000039243883267%21sea%21UA%210%21ABX&curPageLogUid=92prC5vFjggu&utparam-url=scene%3Asearch%7Cquery_from%3A
+	
+	
+	
+2.терморпара
+	https://sxemki.com/p1782045961-termopara-tipu-tsifrovym.html?source=merchant_center&srsltid=AfmBOorERJ_S-4L0ciptV5b6IRj2qUyy-gp5QoWdSnkNwATRp8LRyvSjy20 - 140 грн
+	
+	https://www.rcscomponents.kiev.ua/product/termopara-na-max6675_113180.html - 150
+	
+	https://bigl.ua/ua/p1806531834-termopara-tipu-tsifrovym?srsltid=AfmBOooaeNCpDrjZz2ZXMucvl2MesaFy-0iTSsSKrbVjbk03_r83JjC8nnU - 140
+	
+	https://www.aliexpress.com/item/1005005272656611.html?spm=a2g0o.productlist.main.1.1cda2d9ecc2D1Z&algo_pvid=a2ae1f8d-ad6f-4e47-a6f8-715bb6f14fe7&algo_exp_id=a2ae1f8d-ad6f-4e47-a6f8-715bb6f14fe7-0&pdp_npi=4%40dis%21UAH%2162.50%2162.50%21%21%211.48%211.48%21%40211b819117318760114933450ef56b%2112000032439762795%21sea%21UA%210%21ABX&curPageLogUid=7nx6jEQdkj3i&utparam-url=scene%3Asearch%7Cquery_from%3A
+	
+	https://www.aliexpress.com/item/1005007520908315.html?spm=a2g0o.detail.pcDetailTopMoreOtherSeller.3.9701CToaCToaGW&gps-id=pcDetailTopMoreOtherSeller&scm=1007.40050.354490.0&scm_id=1007.40050.354490.0&scm-url=1007.40050.354490.0&pvid=9726b20e-773e-43fc-9675-ca44fdc26645&_t=gps-id:pcDetailTopMoreOtherSeller,scm-url:1007.40050.354490.0,pvid:9726b20e-773e-43fc-9675-ca44fdc26645,tpp_buckets:668%232846%238113%231998&pdp_npi=4%40dis%21UAH%2187.86%2157.11%21%21%2115.00%219.75%21%40211b612817318761969372814edb59%2112000041113281305%21rec%21UA%21%21ABX&utparam-url=scene%3ApcDetailTopMoreOtherSeller%7Cquery_from%3A
+	
+	
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.

@@ -1,0 +1,74 @@
+https://chatgpt.com/c/6741cafc-63b4-800b-84d9-613741c7c722
+
+1.Комплект Hot End MK8 для 3D-принтера A8, 12V 40W - ProPrint mk8-a8
+https://rozetka.com.ua/ua/354184215/p354184215/?srsltid=AfmBOoqi2pja31LtDq3r0E1nknK2ZHFcb0QqPEdsecuc8IgZcjE-xN05YLM
+
+2. RP2040  є одна плата
+https://prom.ua/ua/p1690334107-modul-raspberry-pico.html?srsltid=AfmBOorYmb2IKOqtCkZYgfr2VlC3lZQNlvjy-td-5hDM0yKVrnLs6_azVmg
+
+https://uamper.com/index.php?route=product/product&path=130&product_id=7564&srsltid=AfmBOoosdj2Fb-wpSKOb07De6IMoenhbWbwMRghzN0VVhGJgHGM5_SF9IaU
+
+3.блок живлення
+https://prom.ua/ua/p1839134276-impulsnyj-blok-pitaniya.html?srsltid=AfmBOooBwM6n0GWvDTimzhgpsgDnnQovtBHscf1SbnsVMiQo3b7KwU0HxKA
+
+https://donsat.com.ua/blok-pitaniya-12v-5a-setka.html
+
+https://xn----8sbkdxhd2d.com.ua/p25304757-blok-pitaniya-12v.html?source=merchant_center&srsltid=AfmBOopRmPn9QxWKaPzAaP_cp7EdoTCnS3ggdJmwrrT0Gt75MGDEbqKQj0A
+
+Сайт магазину не викликає довіру
+https://toolhouse.com.ua/catalog/98
+
+4.понижувальний перетворювач 18-4.7 до 15-1 вольт
+https://prom.ua/ua/p457247609-ponizhayuschij-preobrazovatel-mini360.html
+
+5.логічний перетворювач рівнів
+https://arduino-geek.pp.ua/product/4-%d1%85-%d0%ba%d0%b0%d0%bd%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bb%d0%be%d0%b3%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b8%d0%b9-%d0%bf%d1%80%d0%b5%d0%be%d0%b1%d1%80%d0%b0%d0%b7%d0%be%d0%b2%d0%b0%d1%82/
+
+https://prom.ua/ua/p1927267750-preobrazovatel-logicheskih-urovnej.html?srsltid=AfmBOooKlEPTLvAEmVqAW4BhcAIL3Nmb5IoJs-JabweOkQWgmkNp2Sl-Y_A
+
+https://myproject.com.ua/cjmcu-0108-8-kanalnij-dvonapravlenij-peretvorjuvach-rivniv-335v-na-txs0108e-ua.html
+
+https://prom.ua/ua/p386152475-kanalnyj-dvunapravlennyj-preobrazovatel.html?srsltid=AfmBOorbdEnWI1NUHfFghhR9n72zsFRjXQA8c52
+RSPO4R-d4lAnvbdA-iEs
+
+6.кроковий двигуна і драйвер
+https://rozetka.com.ua/ua/447258746/p447258746/
+
+
+https://prom.ua/ua/p1518797823-shagovyj-dvigatel-28byj.html?srsltid=AfmBOoo2sWu_bkqKh3iVEoY1j5uVRr9knSkEgHgFpfngk5UXsnpOrw6jAS4
+
+6.1.Мотор постійноно струму не кроковий
+https://bigl.ua/ua/p528979778-motor-reduktor-12v?srsltid=AfmBOooGn5KvYx3rBeUT0NIxJfL8D_F2av0puTCIsy6Ie3AUDUQOHjYNaYg
+
+https://www.aliexpress.com/item/1005006537790729.html?src=google
+
+7.Драйвер двигуна постійного струму ОБОВ'ЯЗКОВО КОНВЕРТЕР РІВНІВ З 3.3 НА 5 КОД І СХЕМА https://github.com/sirfonzie/INF2004_LAB4
+
+
+https://www.aliexpress.com/item/1005006208083845.html?src=google&pdp_npi=4%40dis%21UAH%21191.61%2157.14%21%21%21%21%21%40%2112000036321799392%21ppc%21%21%21&src=google&albch=shopping&acnt=272-267-0231&isdl=y&slnk=&plac=&mtctp=&albbt=Google_7_shopping&aff_platform=google&aff_short_key=UneMJZVf&gclsrc=aw.ds&&albagn=888888&&ds_e_adid=&ds_e_matchtype=&ds_e_device=c&ds_e_network=x&ds_e_product_group_id=&ds_e_product_id=ru1005006208083845&ds_e_product_merchant_id=5086892413&ds_e_product_country=UA&ds_e_product_language=ru&ds_e_product_channel=online&ds_e_product_store_id=&ds_url_v=2&albcp=20695360458&albag=&isSmbAutoCall=false&needSmbHouyi=false&gad_source=1&gclid=CjwKCAiAl4a6BhBqEiwAqvrquqNZv7tMxwm56DSq3zkKr9P_Quf-PALhjm5IjjUYtyJLEwugHVnNthoCdr4QAvD_BwE
+
+https://rozetka.com.ua/ua/260648376/p260648376/?srsltid=AfmBOopDMt2dtShdX8tTkRMJ57yK0oPHuxk7XT1vE_G5UponKIVoaoewXOs
+
+https://prom.ua/ua/p2054705762-modul-l298n-drajver.html?srsltid=AfmBOoo9s9_8KCVY-7kggrLLg1pNpWwJ7tpS9mKwwUJvGcDkUEEBVGbLSpg
+
+8.Кнопка дял комутації 220 вольт
+https://prom.ua/ua/p2405426597-pereklyuchatel-klavishnyj-36i.html?srsltid=AfmBOoq79djcECL8_H0DJcIDICviGuGqNtwq_pIzOhQKqoxKSCb9LbVo0jg
+Або купити в будівельному і як варіант бараз.
+
+9.Кнопка дял керування температурою (вони в мене є тож проблем немає)
+https://rozetka.com.ua/ua/379041051/p379041051/?gad_source=1&gclid=CjwKCAiAl4a6BhBqEiwAqvrqugG4Yb3jRX8Jzl9CtnK21U-PbrIuVfIf48X7F8dz0aE0SoW27E-lURoCtqEQAvD_BwE
+
+10.дисплей 128х64
+https://prom.ua/ua/p119200953-oled-displej-graficheskij.html?srsltid=AfmBOoo566PbvLDgZEiRTroc-acljF7u3ZIYOqaEeWG5_puJU51owcpCx_s
+
+https://prom.ua/ua/p1610821061-modul-displej-oled.html?srsltid=AfmBOopra3yoQHi80V5FTeY7FET7pAU4YdW-UxkdJ57LQtZG5f5Aa08yln4
+
+11.леза для нарізки бутилки
+https://avrora.ua/nabir-lez-dlya-kancelyarskogo-nozha/?srsltid=AfmBOoqUjAM1wqBH4QQfkTm95VLQ_mncsRolfUYBITW49hL5VVAxCy5JkgM
+
+12.основа станка на якій буде закріплено все я не визначився яка основа має бути і які розміри потрібно
+
+13.Болт і гайки для закріплено всього з ними визначуся пізніше
+
+14.транзистор дял шім нагрівача діод і рези
+https://prom.ua/ua/p382064135-irlz44n-polevoj-tranzistor.html?srsltid=AfmBOoq82ePGSib7hXlFBZcII8GmE7bG81R4L4GWJTOr1lx3EhIAdwnR4uc

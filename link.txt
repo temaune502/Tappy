@@ -1,0 +1,17 @@
+https://github.com/raspberrypi/pico-examples -  pico examples
+https://github.com/raspberrypi/pico-sdk/releases
+
+
+https://github.com/GyverLibs/microDS18B20 - library from DS18B20
+
+https://randomnerdtutorials.com/raspberry-pi-pico-ds18b20-arduino/ - example from use DS18B20
+https://www.youtube.com/watch?v=7H-c8hKErQE - code frop pico2040
+
+https://chatgpt.com/c/6739d1ff-646c-800b-a4b1-3ec160f52269 - пов'язане із rp2040
+
+https://www.raspberrypi.com/documentation/microcontrollers/silicon.html#rp2040-2 - documentation from rp2040
+https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf
+
+https://www.alldatasheet.com/html-pdf/58557/DALLAS/DS18B20/925/5/DS18B20.html - DS18B20 datasheet
+
+https://chatgpt.com/c/673a163a-403c-800b-85f1-47ac8210dfe0 - thermocontrolers
